@@ -64,4 +64,15 @@ var simulador2 = function (name1, name2) {
     return chars[0].status === 'Winner' ? chars[0] : chars[1];
 };
 
-
+var createCharacter = document.querySelector('.character1'),
+    divs = document.querySelectorAll('p'),
+    nome = document.querySelector('.name');
+    nome.innerHTML='Nome 1';
+    strength = document.querySelector('.strength');
+    strength.innerHTML = simulador2.strength;
+    armor = document.querySelector('.armor');
+    armor.innerHTML= 'chars[1].armor';
+    resistence = document.querySelector('.resistence');
+    resistence.innerHTML = 'char1.resistence';
+    status = document.querySelector('.status');
+    status.innerHTML = 'charasdadelife';
